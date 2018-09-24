@@ -1,0 +1,5 @@
+.ssh/github_rsa
+.ssh/id_boot2docker
+.ssh/id_ed25519
+.ssh/id_rsa
+.ssh/mono_id_rsa
