@@ -1,0 +1,1 @@
+/Users/mharris/.config/fisherman/fry/functions/fry-current.fish

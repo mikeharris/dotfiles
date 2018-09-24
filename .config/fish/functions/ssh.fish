@@ -1,0 +1,1 @@
+/Users/mharris/.config/fisherman/ssh/ssh.fish

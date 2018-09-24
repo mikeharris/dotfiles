@@ -1,0 +1,1 @@
+/Users/mharris/.config/fisherman/fry/completions/fry.fish
