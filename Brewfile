@@ -155,7 +155,6 @@ cask "vimr"
 cask "visual-studio-code"
 cask "vmware-fusion"
 cask "wkhtmltopdf"
-cask "zoom"
 # mas "1Password 7", id: 1333542190
 mas "Agenda", id: 1287445660
 mas "Bandwidth+", id: 490461369
