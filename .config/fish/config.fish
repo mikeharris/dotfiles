@@ -9,6 +9,8 @@ fry config auto on
 
 [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
 
+source ~/.config/fish/.iterm2_shell_integration.(basename $SHELL)
+
 alias vi nvim
 alias vim nvim
 alias ll 'ls -alGh'
