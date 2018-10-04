@@ -68,6 +68,7 @@ brew "mitmproxy"
 brew "mongodb", restart_service: true
 brew "monit"
 brew "mono"
+brew "mysql-client"
 brew "ncdu"
 brew "neovim"
 brew "orientdb"

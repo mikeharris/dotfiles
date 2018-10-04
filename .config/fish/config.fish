@@ -21,3 +21,12 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 set -g fish_user_paths "/usr/local/opt/sqlite/bin" $fish_user_paths
 set -g fish_user_paths $GOPATH/bin $fish_user_paths
 set -gx fish_user_paths $GEM_HOME/bin $fish_user_paths
+
+# For compilers to find mysql-client you may need to set:
+set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"
+
+# For pkg-config to find mysql-client you may need to set:
+set -gx PKG_CONFIG_PATH "/usr/local/opt/mysql-client/lib/pkgconfig"
+set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths
+
